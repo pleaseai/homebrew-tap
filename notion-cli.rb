@@ -1,26 +1,26 @@
 class NotionCli < Formula
-  desc "Manage Notion from the command line"
+  desc "Notion CLI - Manage Notion from the command line"
   homepage "https://github.com/pleaseai/notion"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/notion/releases/download/notion-cli-v0.2.0/notion-darwin-arm64"
-      sha256 "b757497577de1e6d671d5d1f99e7490eb15ae82d1c90b6b7faa8110437fb0b23"
+      url "https://github.com/pleaseai/notion/releases/download/v0.3.0/notion-darwin-arm64"
+      sha256 "e0fabc8e2ef2a94decdbf9c4cc9a05548d15ccfa78777c69fb54ceab5093bc78"
     else
-      url "https://github.com/pleaseai/notion/releases/download/notion-cli-v0.2.0/notion-darwin-x64"
-      sha256 "9acb46e93d2b38bbad8d47774dc53f1c466bab6895ed9e50992f1935b0efcc2a"
+      url "https://github.com/pleaseai/notion/releases/download/v0.3.0/notion-darwin-x64"
+      sha256 "fce23930d1d248814239ac5561c9c64271d81d4fde7e39db20aea6c39ee281eb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/notion/releases/download/notion-cli-v0.2.0/notion-linux-arm64"
-      sha256 "db4b9d10f59adb1dcc41da4718974fef58dec23945ff52a7bbc85a6c24288f29"
+      url "https://github.com/pleaseai/notion/releases/download/v0.3.0/notion-linux-arm64"
+      sha256 "5ea8b4b33c6f1f81a82a5f5f7fedab798715ffccaeadff0f3aae7d4549847f33"
     else
-      url "https://github.com/pleaseai/notion/releases/download/notion-cli-v0.2.0/notion-linux-x64"
-      sha256 "be72b4a4acefda4203046956739b5a65ce5af224edfeac54287773153bfb6c5a"
+      url "https://github.com/pleaseai/notion/releases/download/v0.3.0/notion-linux-x64"
+      sha256 "a3e52b56ff6c6da9f616f6ed5daf6b433627b6cff09e27fe364f48d37a0d2606"
     end
   end
 
