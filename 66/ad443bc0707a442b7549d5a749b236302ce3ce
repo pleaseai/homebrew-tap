@@ -1,0 +1,24 @@
+README.md
+  s_444ae27bd69253::t_cee81efe165e58 16,27
+  s_444ae27bd69253::t_3411fa7927d417 34-52
+  s_444ae27bd69253::t_429e060be4b105 111
+  s_444ae27bd69253::t_06fed250ef5daf 136
+  s_444ae27bd69253::t_0d356c5df041e4 101
+  s_444ae27bd69253::t_1b9f217ba445d6 127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "66ad443bc0707a442b7549d5a749b236302ce3ce",
+  "prompts": {},
+  "sessions": {
+    "s_444ae27bd69253": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9ba150d8-bfe6-4847-9f5e-b5d596baeb33",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <minsu.lee@dietfriends.kr>"
+    }
+  }
+}
