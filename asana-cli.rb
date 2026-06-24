@@ -1,26 +1,26 @@
 class AsanaCli < Formula
   desc "Manage your Asana tasks from the command line"
   homepage "https://github.com/pleaseai/asana"
-  version "0.5.1"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/asana/releases/download/v0.5.1/asana-darwin-arm64"
-      sha256 "6df2f2403c7cb051e784b7a6a7e74fff3189a4200c1597e92f4c0083eb864d11"
+      url "https://github.com/pleaseai/asana/releases/download/v0.6.0/asana-darwin-arm64"
+      sha256 "ea50b1a567ddc04d7f267b32c96493a702a8d4e102158e22141288eb0b386e2f"
     else
-      url "https://github.com/pleaseai/asana/releases/download/v0.5.1/asana-darwin-x64"
-      sha256 "42a1b65c8fc7a42a9ded55ec884269f267ebc1e8f8b556fdfb0b0b57ff53b538"
+      url "https://github.com/pleaseai/asana/releases/download/v0.6.0/asana-darwin-x64"
+      sha256 "ae518ef5d2d1b8ade82be610b07eb391ce2735bcff46fc5c714bd71c93df58a1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/asana/releases/download/v0.5.1/asana-linux-arm64"
-      sha256 "4c1be47487c7c3625bbff6be2dab4e9f8d938113de20852f62e45c0c612a1955"
+      url "https://github.com/pleaseai/asana/releases/download/v0.6.0/asana-linux-arm64"
+      sha256 "13eec748eb6f928efcca603b07ae40f0854faf55175eafba4d6adf31e555c577"
     else
-      url "https://github.com/pleaseai/asana/releases/download/v0.5.1/asana-linux-x64"
-      sha256 "954438e417bc5e2a74d9803e51a125ddc32c02c7aca0f229371b60b742d0bcda"
+      url "https://github.com/pleaseai/asana/releases/download/v0.6.0/asana-linux-x64"
+      sha256 "20f88e1c3bc391346475ea1cfbced5495807a27e68f0dc589fa18d0d4bb813a7"
     end
   end
 
