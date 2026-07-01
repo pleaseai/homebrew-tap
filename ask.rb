@@ -1,26 +1,26 @@
 class Ask < Formula
   desc "Agent Skills Kit - Download version-specific library docs for AI coding agents"
   homepage "https://github.com/pleaseai/ask"
-  version "0.4.7"
+  version "0.4.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.7/ask-darwin-arm64"
-      sha256 "956849471b06a75d83383a3689138b31b57a0ece1d57b535537bea85da3faa32"
+      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.8/ask-darwin-arm64"
+      sha256 "adfb3d0f87bb0a7c6ac0055a1c5f056118d2957a0cefc24757fb848bce8235cb"
     else
-      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.7/ask-darwin-x64"
-      sha256 "db26e6bc4a30db6f567ac5a1092fc3d8bbd19b10f19288c168f853ee62e9b065"
+      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.8/ask-darwin-x64"
+      sha256 "6056040ee12353f56cd6547d60ded87841d05447179d56892ddb23c1fa398ca4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.7/ask-linux-arm64"
-      sha256 "c3c1786eb8c84c403aaa5fa3f47cf6a47b5e94a464eb04255a412d1dfd7e8ac1"
+      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.8/ask-linux-arm64"
+      sha256 "2164620da130e95c701b6b2d603196915d6f58431defd78945c69f583c6d0b8e"
     else
-      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.7/ask-linux-x64"
-      sha256 "eaf4ed8370f21d222693d559b32a581b90d3f4bdca732262fb3de9a1b9f6e815"
+      url "https://github.com/pleaseai/ask/releases/download/ask-v0.4.8/ask-linux-x64"
+      sha256 "d44ef4349b31332c17d42dcc6d9bbf5d174d5ed7cfcdcafd3082d67a47f05dcf"
     end
   end
 
