@@ -1,26 +1,26 @@
 class Csp < Formula
   desc "Fast and accurate hybrid code search for agents"
   homepage "https://github.com/pleaseai/code-search"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/code-search/releases/download/v0.1.7/csp-darwin-arm64"
-      sha256 "8f06d5ebd6e057c2f864e1b4eacd16e0d6affab0c4a58a746cc9ca52cb42c275"
+      url "https://github.com/pleaseai/code-search/releases/download/v0.1.8/csp-darwin-arm64"
+      sha256 "bb8dd8d363ecd9a4fbd528f7d5308ab02967889a87ff37868b947382b9ae5c13"
     else
-      url "https://github.com/pleaseai/code-search/releases/download/v0.1.7/csp-darwin-x64"
-      sha256 "e0ce7d59a9ff9f1af16e56d461495ab9d4ee93618fd923c68738f92e71dd91d4"
+      url "https://github.com/pleaseai/code-search/releases/download/v0.1.8/csp-darwin-x64"
+      sha256 "bd4e5b639ec91d141d9b169a9184d95df8f77b4867b012984b5ea164ae73ebfc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/code-search/releases/download/v0.1.7/csp-linux-arm64"
-      sha256 "54698a3da0cfd4ea5ccc1c88025a271b92345ca68e5b164493af2028b3f58713"
+      url "https://github.com/pleaseai/code-search/releases/download/v0.1.8/csp-linux-arm64"
+      sha256 "1b11a569d9d85385cdb64727f7a52a609a17c3f3fc89ae33ba62311661262e6f"
     else
-      url "https://github.com/pleaseai/code-search/releases/download/v0.1.7/csp-linux-x64"
-      sha256 "f626fabce3ab3a2afa71cffaa2faa6725e79da259e0f0e3f239c7a470a002361"
+      url "https://github.com/pleaseai/code-search/releases/download/v0.1.8/csp-linux-x64"
+      sha256 "7fa152c3248fa2f07389c98906c9283c53515bb87a9aa90f881062079f4e45d8"
     end
   end
 
