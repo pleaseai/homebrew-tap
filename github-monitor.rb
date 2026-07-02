@@ -1,26 +1,26 @@
 class GithubMonitor < Formula
   desc "Claude Code channel server streaming GitHub events into the session"
   homepage "https://github.com/pleaseai/github-monitor"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.2/github-monitor-channel-darwin-arm64"
-      sha256 "8387a4b3348639efd3ba3fea265dd194d5a7afa2d5bb42a54f0e79b7b691cc2f"
+      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.3/github-monitor-channel-darwin-arm64"
+      sha256 "ca8e34be8fea7c11fdcc07c4fa01b19cc9a6eac2d278e92045f6a12162f525c0"
     else
-      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.2/github-monitor-channel-darwin-x64"
-      sha256 "dd0994ec59d42c62f99e797937d62ef1dd5f9e070ee2c6ad2e0e6198fc053f1d"
+      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.3/github-monitor-channel-darwin-x64"
+      sha256 "21978b94a713604549818da09831bd37210612945b0851506100ef88f91d5073"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.2/github-monitor-channel-linux-arm64"
-      sha256 "08527e904d6c0d2a00cec1d18c46489f175c4ee521015f1edcf69fd9ec0a4302"
+      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.3/github-monitor-channel-linux-arm64"
+      sha256 "139a24f7573b274f6aa7960681fe1049817457dc116baf51525038a8e70e053d"
     else
-      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.2/github-monitor-channel-linux-x64"
-      sha256 "92cc801ca44e74b7dc73534527f00be9fba74adb682e021da5410c6bbfd1339b"
+      url "https://github.com/pleaseai/github-monitor/releases/download/v0.1.3/github-monitor-channel-linux-x64"
+      sha256 "2ea9d391fac3746de676921598049abfcc7bbf04887b2b057d8c9ae534bba045"
     end
   end
 
