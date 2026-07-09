@@ -87,6 +87,24 @@ notion database list
 
 **Repository:** [pleaseai/notion](https://github.com/pleaseai/notion)
 
+### shunt
+
+Claude Code LLM gateway — an Anthropic Messages proxy that routes models to OpenAI/Codex and Anthropic-compatible backends.
+
+**Installation:**
+```bash
+brew install pleaseai/tap/shunt
+```
+
+**Usage:**
+```bash
+shunt --help
+shunt run --config shunt.toml     # start the gateway
+shunt check --config shunt.toml   # validate the config
+```
+
+**Repository:** [pleaseai/shunt](https://github.com/pleaseai/shunt)
+
 ## Updating
 
 Update all installed formulae from this tap:
