@@ -1,9 +1,9 @@
 cask "openhwp" do
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  version "0.2.0"
-  sha256 arm:   "97b4b5c7dbd92abaf4a6cad2fb49d7fe089796e26bc87d13095f65e797ac15cb",
-         intel: "e96fd9b1db84310a24487441df739686d8f8d5ba3ee21ead82491d6da138eab3"
+  version "0.2.2"
+  sha256 arm:   "023e2a48511f7b40e6c0df505713b7ad9301392db98d3e768dc8c056e8dd7a19",
+         intel: "bf8414224420a5e372f7f014dbaba9149a61cbd3df6b183ff00d4a4990f3c09b"
 
   url "https://github.com/pleaseai/openhwp/releases/download/v#{version}/OpenHWP-#{arch}.dmg"
   name "OpenHWP"
