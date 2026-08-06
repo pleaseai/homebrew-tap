@@ -1,26 +1,26 @@
 class Shunt < Formula
   desc "Claude Code LLM gateway - Anthropic Messages proxy for OpenAI/Codex and compatible backends"
   homepage "https://github.com/pleaseai/shunt"
-  version "0.33.0"
+  version "0.33.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/shunt/releases/download/v0.33.0/shunt-darwin-arm64"
-      sha256 "b0c111fbc9bfb5e3083bd62c0e1440194c6c31e50a71dbbaa3980aa687bbf854"
+      url "https://github.com/pleaseai/shunt/releases/download/v0.33.1/shunt-darwin-arm64"
+      sha256 "5f6b14b0593f5d94ad5f753860e1727bd8ddde909e75689da46619a419eff1ce"
     else
-      url "https://github.com/pleaseai/shunt/releases/download/v0.33.0/shunt-darwin-x64"
-      sha256 "cd9588be6bcf6e05c2f7cacc066a843f7330db157e9de40624e0c2bfc8ccb7b1"
+      url "https://github.com/pleaseai/shunt/releases/download/v0.33.1/shunt-darwin-x64"
+      sha256 "56f82c68e39d0cadfc81a2ab66e7e4393581c7ef550debb79609bfd959dfad38"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pleaseai/shunt/releases/download/v0.33.0/shunt-linux-arm64"
-      sha256 "b86c77700ff6219bf1a9815b806fa48980f1957472318e43430340226c2d4e4c"
+      url "https://github.com/pleaseai/shunt/releases/download/v0.33.1/shunt-linux-arm64"
+      sha256 "7686386ca74041f400e7a59af0d8df8717c01a6512665ae6e075357445b799d4"
     else
-      url "https://github.com/pleaseai/shunt/releases/download/v0.33.0/shunt-linux-x64"
-      sha256 "cb45aee6e8e508cfd824fb1c80ddd9efbe702ef7fcf0567b8a3bf01a49c2bc7e"
+      url "https://github.com/pleaseai/shunt/releases/download/v0.33.1/shunt-linux-x64"
+      sha256 "fffc84e931bb831e7e7cf749eeeec9ba1d0611d1ba2056cf414867ec98a89381"
     end
   end
 
